@@ -1,2 +1,27 @@
 
 /* Your CSS Code here. */
+/* Base table look to resemble the screenshot */
+table { border-collapse: separate; width: 100%; }
+.outer { border: 3px solid #444; }
+td, th { border: 3px solid #444; padding: 8px 10px; vertical-align: top; }
+
+/* Layout: 2x2 grid inside the main table */
+.cell { height: 240px; }
+
+/* Nested tables */
+.subtable { width: 100%; border: 3px solid #444; }
+.subtable th { background: #eee; }
+
+/* Typography and alignment */
+.center { text-align: center; }
+.nested-header { text-align: center; font-weight: 700; }
+.bar th { padding: 6px; }
+
+/* List styling */
+.bullets { padding-left: 28px; }
+
+/* Link appearance to match screenshot vibe */
+a.fake { color: #3b3bff; text-decoration: underline; }
+
+/* Black bar with white text for “HTML” */
+.black { background: #000; color: #fff; text-align: center; }
